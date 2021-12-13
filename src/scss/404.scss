@@ -1,0 +1,22 @@
+.error {
+	margin-top: 24px;
+	text-align: center;
+}
+.error__title {
+	margin-top: 120px;
+	margin-bottom: 4px;
+	font-family: 'SilkSerif-Italic';
+	font-size: 25px;
+	line-height: 36px;
+	color: #1a1a1a;
+}
+.error__text {
+	font-family: 'Nunito-SemiBold';
+	font-size: 14px;
+	line-height: 20px;
+	color: #1a1a1a;
+}
+.error__text a {
+	color: #569587;
+	text-decoration: underline;
+}

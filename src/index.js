@@ -1,3 +1,2 @@
-import './scss/index.scss'
-
-console.log('Working!')
+import './js/styles';
+import './js/js';

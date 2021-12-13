@@ -34,7 +34,6 @@ module.exports = {
 		extensions: ['.js'],
 		alias: {
 			'@': path.resolve(__dirname, 'src'),
-			'@core': path.resolve(__dirname, 'src/core'),
 		},
 	},
 	devtool: isDev ? 'source-map' : false,
@@ -64,6 +63,12 @@ module.exports = {
 			{
 				from: path.resolve(__dirname, 'src/favicon.ico'),
 				to: path.resolve(__dirname, 'dist'),
+			},
+		]),
+		new CopyPlugin([
+			{
+				from: path.resolve(__dirname, 'src/fonts'),
+				to: path.resolve(__dirname, 'dist/fonts'),
 			},
 		]),
 		new MiniCssExtractPlugin({
