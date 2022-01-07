@@ -1,0 +1,74 @@
+{
+	"id_1": {
+		"name": "Skv company julia light",
+		"price": "420",
+		"type": "Cradles",
+		"inStock": "Not In Stock",
+		"sourceImg": "images/card-img2.png",
+		"category": "Cradles",
+		"amount": "9999"
+	},
+	"id_2": {
+		"name": "Pali moses basket birillo",
+		"price": "554",
+		"type": "Travel Cots",
+		"inStock": "In Stock",
+		"sourceImg": "images/card-img1.png",
+		"category": "Cradles",
+		"amount": "135"
+	},
+	"id_3": {
+		"name": "Gandylyan gabriella lux",
+		"price": "110",
+		"type": "Classic Cribs",
+		"inStock": "In Stock",
+		"sourceImg": "images/card-img3.png",
+		"category": "Drawers",
+		"amount": "90"
+	},
+	"id_4": {
+		"name": "Skv company julia light",
+		"price": "520",
+		"type": "Drawers",
+		"inStock": "Not In Stock",
+		"sourceImg": "images/card-img1.png",
+		"category": "Cradles",
+		"amount": "43"
+	},
+	"id_5": {
+		"name": "Pali drawer chest lab",
+		"price": "420",
+		"type": "Wardrobes",
+		"inStock": "Not In Stock",
+		"sourceImg": "images/card-img2.png",
+		"category": "Gandylyan",
+		"amount": "115"
+	},
+	"id_6": {
+		"name": "Happy baby martin sand",
+		"price": "554",
+		"type": "Feeding Chairs",
+		"inStock": "In Stock",
+		"sourceImg": "images/card-img1.png",
+		"category": "Drawers",
+		"amount": "34"
+	},
+	"id_7": {
+		"name": "Gandylyan gabriella light",
+		"price": "110",
+		"type": "Musical swing-lounge",
+		"inStock": "In Stock",
+		"sourceImg": "images/card-img3.png",
+		"category": "Classic Cribs",
+		"amount": "12"
+	},
+	"id_8": {
+		"name": "Gandylyan julia light",
+		"price": "520",
+		"type": "Teen cribs",
+		"inStock": "Not In Stock",
+		"sourceImg": "images/card-img1.png",
+		"category": "Gandylyan",
+		"amount": "15"
+	}
+}
