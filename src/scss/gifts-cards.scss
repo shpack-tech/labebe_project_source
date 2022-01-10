@@ -1,0 +1,137 @@
+.giftscards__banner {
+	margin-bottom: 24px;
+	background-color: #fcf9f4;
+}
+.giftscards__banner-info {
+	padding: 0 20px;
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 20px;
+}
+
+.giftscards__banner-info__title {
+	margin-bottom: 8px;
+	font-size: 25px;
+	line-height: 36px;
+	max-width: 260px;
+}
+.giftscards__banner-info__text {
+	font-family: 'Nunito-Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #828282;
+}
+.giftscards__banner-img {
+	width: 100%;
+}
+.giftscards__banner-img img {
+	width: 100%;
+	min-height: 312px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.catalog_container {
+	margin-top: 32px;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: repeat(auto-fill, minmax(50%, 50%));
+	@media screen and (min-width: 530px) {
+		grid-template-columns: repeat(auto-fill, minmax(33%, 33%));
+	}
+	@media screen and (min-width: 800px) {
+		grid-template-columns: repeat(auto-fill, minmax(25%, 25%));
+	}
+}
+.container_with_filters {
+	grid-template-columns: repeat(auto-fill, minmax(50%, 50%));
+	@media screen and (min-width: 530px) {
+		grid-template-columns: repeat(auto-fill, minmax(33%, 33%));
+	}
+}
+.catalog_container .card {
+	/* margin-right: 20px !important; */
+	padding: 10px;
+}
+
+.catalog_container .card__img img {
+}
+
+@media (min-width: 600px) {
+	.giftscards__banner {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.giftscards__banner-img {
+		height: 100%;
+	}
+	.catalog_container .card__img img {
+	}
+	.giftscards__banner-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+@media (min-width: 890px) {
+	.catalog_container .card:nth-child(3) {
+		margin-left: 10px;
+	}
+	.giftscards__banner-info {
+		padding-top: 54px;
+		padding-bottom: 54px;
+	}
+	.giftscards__banner-info__title {
+		font-size: 56px;
+		line-height: 76px;
+		position: relative;
+		display: inline-block;
+	}
+	.giftscards__banner-info__title sup {
+		font-family: 'Nunito-SemiBold';
+		font-size: 16px;
+		line-height: 24px;
+		color: #828282;
+		position: absolute;
+		top: 5px;
+		right: -20px;
+	}
+	.giftscards__banner-info__text {
+		max-width: 468px;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.giftscards__banner-img {
+		width: 60%;
+	}
+}
+@media (min-width: 940px) {
+	.catalog_container {
+	}
+	.catalog_container .card {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 1190px) {
+	.catalog_container {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+	}
+	.catalog_container .card {
+	}
+}
+@media (min-width: 1200px) {
+	.giftscards__banner-info {
+		margin-left: calc((100vw - 1180px) / 2);
+		padding-left: 0;
+	}
+	.giftscards__banner-img {
+		width: 80%;
+	}
+}
+@media (min-width: 1440px) {
+	.giftscards__banner-img {
+		margin-right: calc((100vw - 1180px) / 2 - 120px);
+	}
+}

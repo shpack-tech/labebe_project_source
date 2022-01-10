@@ -20,13 +20,18 @@
 	position: absolute;
 	content: url(../images/arrow-down.svg);
 	right: 0;
+	transition: all ease 0.4s;
 	top: 4px;
 }
 .footer__category-item.rotate::after {
 	top: 0;
 	-webkit-transform: rotateZ(180deg);
 	-ms-transform: rotate(180deg);
+	transition: all ease 0.4s;
 	transform: rotateZ(180deg);
+}
+.footer__category-item {
+	transition: all ease 0.4s;
 }
 .footer__category-item + .footer__category-item {
 	margin-top: 16px;
@@ -37,7 +42,9 @@
 	line-height: 24px;
 }
 .footer__category-list {
-	display: none;
+	max-height: 0;
+	overflow: hidden;
+	transition: all ease 0.4s;
 	background-color: #fff;
 	width: 100%;
 	font-family: 'Nunito-Regular';
@@ -46,6 +53,9 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #1a1a1a;
+	@media screen and (min-width: 1000px) {
+		max-height: unset;
+	}
 }
 .footer__category-list__item:first-child {
 	padding-top: 20px;

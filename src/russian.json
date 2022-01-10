@@ -1,0 +1,294 @@
+{
+	"registration": {
+		"title": "Регистрация",
+		"name": "Имя",
+		"namePlaceholder": "Введите Ваше имя",
+		"email": "Электронная почта",
+		"emailPlaceholder": "Введите Ваш адрес электронной почты",
+		"password": "Пароль",
+		"passwordPlaceholder": "Введите пароль",
+		"confirmPassword": "Подтвердите пароль",
+		"enterPassword": "Введите пароль",
+		"inputCheckbox": "Я прочитал (прочитала) и согласен (согласна) с политикой конфиденциальности.",
+		"button": "Регистрация"
+	},
+	"logIn": {
+		"title": "Авторизоваться",
+		"email": "Электронная почта",
+		"emailPlaceholder": "Введите Ваш адрес электронной почты",
+		"password": "Пароль",
+		"passwordPlaceholder": "Введите пароль",
+		"forgotYourPassword": "Забыли Ваш пароль?",
+		"button": "Войти",
+		"inputCheckbox": "Запомнить меня"
+	},
+	"unregisteredUser": {
+		"text": "Войдите в магазин, чтобы отслеживать заказы и сравнивать товары.",
+		"logIn": "Войти",
+		"registration": "Регистрация"
+	},
+	"header": {
+		"headerTop": {
+			"payment": "Оплата",
+			"shipping": "Доставка",
+			"warranty": "Гарантия",
+			"returnPolicy": "Политика возврата",
+			"contacts": "Контакты",
+			"giftCards": "Подарочные карты"
+		},
+		"headerBottom": {
+			"shop": "Магазин",
+			"blog": "Блог",
+			"brands": "Бренды",
+			"search": {
+				"search": "Поиск",
+				"searchPlaceholder": "Поиск товара"
+			},
+			"myAccount": "Аккаунт",
+			"wishlist": "Избранное <span>(0)</span>",
+			"cart": "Корзина <span>(0)</span>"
+		}
+	},
+	"catalog": {
+		"title": "Магазин",
+		"childrensFurniture": "Детская мебель",
+		"childrensMattresses": "Детские матрасы",
+		"babyBedding": "Детское постельное белье",
+		"toys": "Игрушки",
+		"babyStrollers": "Детские коляски",
+		"childCarSeats": "Детские автокресла",
+		"bathingAccessories": "Bathing accessories",
+		"feedingAccessories": "Принадлежности для купания",
+		"promotionalOffers": "Акционные предложения",
+		"giftCards": "Подарочные карты"
+	},
+	"filters": {
+		"priceRange": "Ценовой диапазон",
+		"brand": {
+			"title": "Бренд",
+			"pali": "Pali",
+			"skvCompany": "SKV Company",
+			"gandylyan": "Gandylyan",
+			"erbesi": "Erbesi",
+			"happyBaby": "Happy Baby",
+			"4moms": "4moms"
+		},
+		"type": {
+			"title": "Type",
+			"babyCots": "Детские кроватки",
+			"teenCribs": "Подростковые кровати",
+			"classicCribs": "Классические кровати",
+			"transformingCribs": "Кровати-трансформеры",
+			"cradles": "Люльки",
+			"travelCots": "Переноски",
+			"drawers": "Комоды",
+			"babyWalkers": "Детские ходунки",
+			"musicalSwingLounge": "Музыкальные качели",
+			"wardrobes": "Шкафы",
+			"feedingChairs": "Стульчики для кормления",
+			"travelCots": "Переноски"
+		},
+		"countryOfOrigin": {
+			"title": "Страна изготовления",
+			"italy": "Италия",
+			"russia": "Россия"
+		},
+		"color": {
+			"title": "Цвет",
+			"beige": "Бежевый",
+			"beigeWhite": "Бежевый + белый",
+			"gray": "Серый",
+			"ivory": "Слоновая кость",
+			"white": "Белый"
+		},
+		"material": {
+			"title": "Материал",
+			"birch": "Береза",
+			"pine": "Сосна",
+			"oak": "Дуб"
+		}
+	},
+	"checkOut": {
+		"checkOutSteps": {
+			"shipping": "Доставка",
+			"contactDetails": "Контакты",
+			"payment": "Оплата",
+			"confirmation": "Подтверждение"
+		},
+		"order": {
+			"title": "Как доставить заказ?",
+			"tabs": {
+				"tab1": {
+					"pickupFromTheStore": "Самовывоз из магазина",
+					"address": "Грузия, Тбилиси, 25 эт. Казбеги пр. (M2 дом)"
+				},
+				"tabs2": {
+					"courierDeliveryInTbilisi": "Курьерская доставка по Тбилиси.",
+					"from": "с 28.10",
+					"delivery": "Стоимость доставки - 20 ₾"
+				},
+				"tabs3": {
+					"courierDeliveryToRegions": "Курьерская доставка в регионы",
+					"from": "с 31.10",
+					"delivery": "Стоимость доставки - 55 ₾"
+				}
+			},
+			"contents": {
+				"content1": {
+					"title": "Посетить нас",
+					"address": "Адрес: Грузия, Тбилиси, 25 Ал. Казбеги пр. (M2 дом)",
+					"workingHours": "Working Hours: Mon - Sun | 10:00 - 19:00",
+					"phone": "Телефон: 599 84 56 76",
+					"deliveryTime": "Время доставки: 0-1 день"
+				},
+				"content2": {
+					"address": "Адрес",
+					"apartment": "Квартира",
+					"floor": "Этаж",
+					"entrance": "Подъезд",
+					"intercom": "домофон"
+				},
+				"content3": {
+					"locality": "Регион",
+					"address": "Адрес",
+					"apartment": "Квартира",
+					"floor": "Этаж",
+					"entrance": "Подъезд",
+					"intercom": "домофон"
+				}
+			},
+			"orderButton": {
+				"returnToCart": "Вернуться в корзину",
+				"continue": "Продолжить",
+				"goBackOneStep": "вернуться на один шаг"
+			}
+		},
+		"details": {
+			"title": "Реквизиты получателя",
+			"name": "Имя",
+			"namePlaceholder": "Введите Ваше имя",
+			"phoneNumber": "Номер телефона",
+			"phoneNumberPlaceholder": "Введите Ваш номер телефона",
+			"email": "Электронная почта",
+			"emailPlaceholder": "Введите Ваш адрес электронной почты",
+			"data": {
+				"title": "Указывайте реальные данные!",
+				"text": "Перед передачей оплаченного заказа у вас могут попросить паспорт."
+			},
+			"detailsButton": {
+				"returnToCart": "Вернуться в корзину",
+				"continue": "Продолжить",
+				"goBackOneStep": "вернуться на один шаг"
+			},
+			"payment": {
+				"title": "Выберите способ оплаты",
+				"tabs": {
+					"tab1": {
+						"title": "Онлайн, картой",
+						"text": "Visa, Mastercard, Amex"
+					},
+					"tab2": {
+						"title": "Наложенный платеж при доставке или самовывозе",
+						"text": "Принимаем только наличные"
+					},
+					"tab3": {
+						"title": "Картой при доставке или самовывозе",
+						"text": "Visa, Mastercard, Amex"
+					},
+					"tab4": {
+						"title": "Онлайн-рассрочка",
+						"text": "Bank of Georgia, Space credit, TBC Bank"
+					}
+				},
+				"contents": {
+					"content1": {
+						"cardNumber": "Номер карты",
+						"expirationDate": "Дата окончания срока действия карты",
+						"cvv": "CVV"
+					},
+					"content2": {
+						"text": "Вы можете заплатить наличными курьеру при выборе доставки, либо оплатить наличными на кассе в нашем магазине."
+					},
+					"content3": {
+						"text": "Вы можете заплатить наличными курьеру при выборе доставки, либо оплатить наличными на кассе в нашем магазине."
+					},
+					"content4": {
+						"bank1": "Онлайн-рассрочка от Банка Грузии",
+						"bank2": "Онлайн-рассрочка от TBC Bank",
+						"bank3": "Онлайн-рассрочка от Space credit"
+					}
+				},
+				"paymentButton": {
+					"returnToCart": "Вернуться в корзину",
+					"continue": "Продолжить",
+					"goBackOneStep": "вернуться на один шаг",
+					"placeAnOrder": "разместить заказ"
+				}
+			}
+		},
+		"stsatus": {
+			"title": "Спасибо!",
+			"infoText1": "Ваш заказ номер А-231411 размещен успешно",
+			"infoText2": "Наши менеджеры свяжутся с вами в течении 30 минут.",
+			"infoText3": "Также вы можете отслеживать статус заказа в личном кабинете."
+		},
+		"statusButton": {
+			"goToPersonalAccount": "Перейти в личный кабинет",
+			"goBackToMainPage": "Вернуться на главную страницу"
+		}
+	},
+	"footer": {
+		"about": {
+			"title": "О нас",
+			"aboutUs": "О нас",
+			"giftsCards": "Подарочные карты",
+			"blog": "Блог"
+		},
+		"shop": {
+			"title": "Магазин",
+			"childrensFurniture": "Детская мебель",
+			"childrensMattresses": "Детские матрассы",
+			"linens": "Постельное белье",
+			"toys": "Игрушки",
+			"strollers": "Strollers",
+			"childCarSeats": "Детские автокресла",
+			"bathingAccessories": "Принадлежности для купания",
+			"feedingAccessories": "Принадлежности для кормления",
+			"promotionalOffers": "Акционные предложения"
+		},
+		"customerCare": {
+			"title": "Обслуживание клиентов",
+			"payment": "Оплата",
+			"shipping": "Доставка",
+			"warranty": "Гарантия",
+			"returnPolicy": "Политика возврата"
+		},
+		"contactUs": {
+			"title": "Наши контакты",
+			"call": "Звонок: 599 84 56 76",
+			"email": "Электронная почта: babylandgeorgia@gmail.com",
+			"adress": "Адрес: Грузия, Тбилиси, 25 Ал. Казбеги пр. (M2 дом)",
+			"work": "Пн - Вс 10:00 - 19:00"
+		},
+		"followUs": {
+			"title": "Подписывайтесь на нас",
+			"facebook": "Facebook",
+			"instagram": "Instagram",
+			"youtube": "Youtube"
+		},
+		"rights": {
+			"privacyPolicy": "Политика конфиденциальности",
+			"cookiePolicy": "Политика использования файлов cookie",
+			"termsConditions": "Условия и положения",
+			"legalNotice": "Правовая информация",
+			"allRights": "© Labebe 2021. Все права защищены."
+		}
+	},
+	"rev": "1 отзывов",
+	"qes": "1 вопросов",
+	"wl": "В желаемое",
+	"cm": "Сравнить",
+	"share": "Поделиться",
+	"vend": "Артикул: BT000960",
+	"add": "В КОРЗИНУ"
+}

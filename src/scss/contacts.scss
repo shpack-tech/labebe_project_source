@@ -1,0 +1,33 @@
+.contacts {
+	margin-top: 24px;
+}
+.contacts__title {
+	margin: 24px 0;
+	// font-family: 'SilkSerif-Italic';
+	font-size: 25px;
+	line-height: 36px;
+	color: #1a1a1a;
+}
+.contacts__subtitle {
+	margin-bottom: 12px;
+	font-family: 'Nunito-SemiBold';
+	font-size: 16px;
+	line-height: 24px;
+}
+.contacts__list {
+	font-family: 'Nunito-Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #1a1a1a;
+}
+.contacts__list span {
+	font-family: 'Nunito-SemiBold';
+}
+.contacts__list-item {
+	margin: 8px 0;
+}
+.contacts__map {
+	margin-top: 24px;
+
+	height: 240px;
+}

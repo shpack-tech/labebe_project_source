@@ -1,0 +1,110 @@
+@media (min-width: 600px) {
+  .error__title {
+    font-size: 52px;
+    line-height: 80px;
+  }
+  .error__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .footer__logo {
+    width: 88px;
+    height: 40px;
+  }
+
+  .contacts__title {
+    font-size: 56px;
+    line-height: 76px;
+  }
+  .contacts__subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .contacts__list {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .contacts__map {
+    height: 454px;
+  }
+}
+@media (min-width: 769px) {
+  .footer__info {
+    margin-top: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__info-pay {
+    text-align: right;
+  }
+  .footer__info-list {
+    max-width: 380px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__info-item:not(:first-child) {
+    margin: 0;
+  }
+}
+@media (min-width: 900px) {
+  .footer__info-list {
+    max-width: 490px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer__info-rights {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .footer {
+    padding: 40px 0;
+    margin-top: 196px;
+  }
+  .footer__category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 40px;
+  }
+  .footer__category-item {
+    border: none;
+  }
+  .footer__category-item::after {
+    display: none;
+  }
+  .footer__category-item + .footer__category-item {
+    margin: 0;
+  }
+  .footer__category-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .footer__category-list {
+    display: block;
+    max-width: 228px;
+  }
+  .footer__category-list__item:last-child {
+    padding-bottom: 0;
+  }
+}

@@ -59,6 +59,142 @@ module.exports = {
 				collapseWhitespace: isProd,
 			},
 		}),
+		new HTMLWebpackPlugin({
+			filename: 'mainpage.html',
+			template: 'mainpage.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'subcatalog.html',
+			template: 'subcatalog.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'reviews-and-questions.html',
+			template: 'reviews-and-questions.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'profile.html',
+			template: 'profile.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'product.html',
+			template: 'product.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'order.html',
+			template: 'order.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'gifts-cards.html',
+			template: 'gifts-cards.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'contacts.html',
+			template: 'contacts.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'catalog.html',
+			template: 'catalog.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'cart.html',
+			template: 'cart.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'blog.html',
+			template: 'blog.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'blog-post.html',
+			template: 'blog-post.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'wishlist.html',
+			template: 'wishlist.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'compare.html',
+			template: 'compare.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'orders.html',
+			template: 'orders.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'brand.html',
+			template: 'brand.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
+		new HTMLWebpackPlugin({
+			filename: 'search-results.html',
+			template: 'search-results.html',
+			minify: {
+				removeComments: isProd,
+				collapseWhitespace: isProd,
+			},
+		}),
 		new CopyPlugin([
 			{
 				from: path.resolve(__dirname, 'src/favicon.ico'),
@@ -67,18 +203,36 @@ module.exports = {
 		]),
 		new CopyPlugin([
 			{
-				from: path.resolve(__dirname, 'src/fonts'),
-				to: path.resolve(__dirname, 'dist/fonts'),
+				from: path.resolve(__dirname, 'src/images'),
+				to: path.resolve(__dirname, 'dist/images'),
+			},
+		]),
+		new CopyPlugin([
+			{
+				from: path.resolve(__dirname, 'src/products.json'),
+				to: path.resolve(__dirname, 'dist/products.json'),
+			},
+		]),
+		new CopyPlugin([
+			{
+				from: path.resolve(__dirname, 'src/english.json'),
+				to: path.resolve(__dirname, 'dist/english.json'),
+			},
+		]),
+		new CopyPlugin([
+			{
+				from: path.resolve(__dirname, 'src/russian.json'),
+				to: path.resolve(__dirname, 'dist/russian.json'),
 			},
 		]),
 		new MiniCssExtractPlugin({
-			filename: filename('css'),
+			filename: `${filename('css')}`,
 		}),
 	],
 	module: {
 		rules: [
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.(sass|css|scss)$/,
 				use: [
 					{
 						loader: MiniCssExtractPlugin.loader,
@@ -95,6 +249,71 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /node_modules/,
 				use: jsLoaders(),
+			},
+			{
+				test: /\.eot(\?v=\d+.\d+.\d+)?$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							name: '[name].[ext]',
+						},
+					},
+				],
+			},
+			{
+				test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 10000,
+							mimetype: 'application/font-woff',
+							name: '[name].[ext]',
+						},
+					},
+				],
+			},
+			{
+				test: /\.[ot]tf(\?v=\d+.\d+.\d+)?$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 10000,
+							mimetype: 'application/octet-stream',
+							name: '[name].[ext]',
+						},
+					},
+				],
+			},
+			{
+				test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 10000,
+							mimetype: 'image/svg+xml',
+							name: '[name].[ext]',
+						},
+					},
+				],
+			},
+			{
+				test: /\.(jpe?g|png|gif|ico)$/i,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]',
+						},
+					},
+				],
+			},
+			{
+				test: /\.json$/,
+				loader: 'json-loader',
 			},
 		],
 	},

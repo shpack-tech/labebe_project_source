@@ -1,0 +1,114 @@
+.subscribe {
+	background-color: #fcf9f4;
+	margin-top: 96px;
+	padding-top: 68px;
+	padding-bottom: 48px;
+}
+.subscribe__title {
+	position: relative;
+	margin-bottom: 12px;
+	font-family: 'SilkSerif-Regular';
+	font-size: 22px;
+	line-height: 36px;
+	color: #1a1a1a;
+}
+.subscribe__title span {
+	font-family: 'SilkSerif-Italic';
+}
+.subscribe__title::after {
+	position: absolute;
+	content: '';
+	width: 246px;
+	height: 168px;
+	background-image: url('../images/subscribe.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: -100px;
+	right: calc(50% - 123px);
+
+	@media screen and (min-width: 900px) {
+		right: 0;
+	}
+}
+.subscribe__text {
+	font-family: 'Nunito-Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #1a1a1a;
+}
+.subscribe .form__search {
+	margin-top: 24px;
+	margin-bottom: 8px;
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 348px;
+	width: 100%;
+}
+.subscribe__policy {
+	font-family: 'Nunito-Regular';
+	font-size: 12px;
+	line-height: 16px;
+	color: #1a1a1a;
+}
+.subscribe__policy a {
+	font-family: 'Nunito-Light';
+	text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+	.subscribe {
+		margin-top: 104px;
+		padding-top: 86px;
+		padding-bottom: 86px;
+	}
+	.subscribe__title {
+		font-size: 52px;
+		line-height: 79px;
+		margin-bottom: 49px;
+	}
+	.subscribe__title::after {
+		width: 383px;
+		top: -80px;
+	}
+	.subscribe__text {
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 464px;
+	}
+	.subscribe__wrapper {
+		max-width: 860px;
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: end;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+	}
+	.subscribe .form__search {
+		margin-top: 12px;
+		margin-bottom: 4px;
+	}
+	.subscribe__policy {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+@media (min-width: 1024px) {
+	.subscribe__title::after {
+		width: 475px;
+	}
+}
+@media (min-width: 1146px) {
+	.subscribe__title::after {
+		width: 518px;
+		top: 0;
+	}
+}

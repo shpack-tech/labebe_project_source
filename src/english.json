@@ -1,0 +1,294 @@
+{
+	"registration": {
+		"title": "Registration",
+		"name": "Name",
+		"namePlaceholder": "Enter your name",
+		"email": "E-mail",
+		"emailPlaceholder": "Enter your e-mail",
+		"password": "Password",
+		"passwordPlaceholder": "Enter password",
+		"confirmPassword": "Confirm password",
+		"enterPassword": "Enter password",
+		"inputCheckbox": "I have read (read) and agree (agree) with the <a style='color:#C4C4C4; text-decoration:underline;font-size:14px' href='#'>privacy policy</a>.",
+		"button": "Registration"
+	},
+	"logIn": {
+		"title": "Log in",
+		"email": "E-mail",
+		"emailPlaceholder": "Enter your e-mail",
+		"password": "Password",
+		"passwordPlaceholder": "Enter password",
+		"forgotYourPassword": "Forgot your password?",
+		"button": "sign in",
+		"inputCheckbox": "Remember me"
+	},
+	"unregisteredUser": {
+		"text": "Login to the store to track orders and compare products.",
+		"logIn": "log in",
+		"registration": "registration"
+	},
+	"header": {
+		"headerTop": {
+			"payment": "Payment",
+			"shipping": "Shipping",
+			"warranty": "Warranty",
+			"returnPolicy": "Return policy",
+			"contacts": "Contacts",
+			"giftCards": "Gift cards"
+		},
+		"headerBottom": {
+			"shop": "Shop",
+			"blog": "Blog",
+			"brands": "Brands",
+			"search": {
+				"search": "Search",
+				"searchPlaceholder": "Search product"
+			},
+			"myAccount": "My account",
+			"wishlist": "Wishlist <span>(0)</span>",
+			"cart": "Cart <span>(0)</span>"
+		}
+	},
+	"catalog": {
+		"title": "Shop",
+		"childrensFurniture": "Children's furniture",
+		"childrensMattresses": "Children's mattresses",
+		"babyBedding": "Baby bedding",
+		"toys": "Toys",
+		"babyStrollers": "Baby strollers",
+		"childCarSeats": "Child car seats",
+		"bathingAccessories": "Bathing accessories",
+		"feedingAccessories": "Feeding accessories",
+		"promotionalOffers": "Promotional offers",
+		"giftCards": "Gift cards"
+	},
+	"filters": {
+		"priceRange": "Price range",
+		"brand": {
+			"title": "Brand",
+			"pali": "Pali",
+			"skvCompany": "SKV Company",
+			"gandylyan": "Gandylyan",
+			"erbesi": "Erbesi",
+			"happyBaby": "Happy Baby",
+			"4moms": "4moms"
+		},
+		"type": {
+			"title": "Type",
+			"babyCots": "Baby cots",
+			"teenCribs": "Teen cribs",
+			"classicCribs": "Classic cribs",
+			"transformingCribs": "Transforming Cribs",
+			"cradles": "Cradles",
+			"travelCots": "Travel Cots",
+			"drawers": "Drawers",
+			"babyWalkers": "Baby Walkers",
+			"musicalSwingLounge": "Musical swing-lounge",
+			"wardrobes": "Wardrobes",
+			"feedingChairs": "Feeding Chairs",
+			"travelCots": "Travel Cots"
+		},
+		"countryOfOrigin": {
+			"title": "Country of origin",
+			"italy": "Italy",
+			"russia": "Russia"
+		},
+		"color": {
+			"title": "Color",
+			"beige": "Beige",
+			"beigeWhite": "Beige + White",
+			"gray": "Gray",
+			"ivory": "Ivory",
+			"white": "White"
+		},
+		"material": {
+			"title": "Material",
+			"birch": "Birch",
+			"pine": "Pine",
+			"oak": "Oak"
+		}
+	},
+	"checkOut": {
+		"checkOutSteps": {
+			"shipping": "Shipping",
+			"contactDetails": "Contact details",
+			"payment": "Payment",
+			"confirmation": "Confirmation"
+		},
+		"order": {
+			"title": "How to deliver the order?",
+			"tabs": {
+				"tab1": {
+					"pickupFromTheStore": "Pickup from the store",
+					"address": "Georgia, Tbilisi, 25 Al. Kazbegi Ave. (M2 Building)"
+				},
+				"tabs2": {
+					"courierDeliveryInTbilisi": "Courier delivery in Tbilisi",
+					"from": "from 28.10",
+					"delivery": "Delivery cost - 20 ₾"
+				},
+				"tabs3": {
+					"courierDeliveryToRegions": "Courier delivery to regions",
+					"from": "from 31.10",
+					"delivery": "Delivery cost - 55 ₾"
+				}
+			},
+			"contents": {
+				"content1": {
+					"title": "Visit Us",
+					"address": "Address: Georgia, Tbilisi, 25 Al. Kazbegi Ave. (M2 Building)",
+					"workingHours": "Working Hours: Mon - Sun | 10:00 - 19:00",
+					"phone": "Phone: 599 84 56 76",
+					"deliveryTime": "Delivery time: 0-1 days"
+				},
+				"content2": {
+					"address": "Address",
+					"apartment": "Apartment",
+					"floor": "Floor",
+					"entrance": "Entrance",
+					"intercom": "Intercom"
+				},
+				"content3": {
+					"locality": "Locality",
+					"address": "Address",
+					"apartment": "Apartment",
+					"floor": "Floor",
+					"entrance": "Entrance",
+					"intercom": "Intercom"
+				}
+			},
+			"orderButton": {
+				"returnToCart": "Return to cart",
+				"continue": "continue",
+				"goBackOneStep": "go back one step"
+			}
+		},
+		"details": {
+			"title": "Details of the recipient",
+			"name": "Name",
+			"namePlaceholder": "Enter your name",
+			"phoneNumber": "Phone number",
+			"phoneNumberPlaceholder": "Enter your phone number",
+			"email": "E-mail",
+			"emailPlaceholder": "Enter your e-mail",
+			"data": {
+				"title": "Indicate real data!",
+				"text": "You may be asked for a passport, before handing over the paid order"
+			},
+			"detailsButton": {
+				"returnToCart": "Return to cart",
+				"continue": "continue",
+				"goBackOneStep": "go back one step"
+			},
+			"payment": {
+				"title": "Select a Payment Method",
+				"tabs": {
+					"tab1": {
+						"title": "Сard online",
+						"text": "Visa, Mastercard, Amex"
+					},
+					"tab2": {
+						"title": "Cash on delivery or pickup",
+						"text": "Cash Only"
+					},
+					"tab3": {
+						"title": "Card on delivery or pickup",
+						"text": "Visa, Mastercard, Amex"
+					},
+					"tab4": {
+						"title": "Online installments",
+						"text": "Bank of Georgia, Space credit, TBC Bank"
+					}
+				},
+				"contents": {
+					"content1": {
+						"cardNumber": "Card  number",
+						"expirationDate": "Expiration Date",
+						"cvv": "CVV"
+					},
+					"content2": {
+						"text": "You can pay in cash to the courier when choosing delivery, or pay in cash at the checkout in our store."
+					},
+					"content3": {
+						"text": "You can pay in cash to the courier when choosing delivery, or pay in cash at the checkout in our store."
+					},
+					"content4": {
+						"bank1": "Online installment plan of the Bank of Georgia",
+						"bank2": "Online installment plan of the TBC Bank ",
+						"bank3": "Online installment plan of the Space credit"
+					}
+				},
+				"paymentButton": {
+					"returnToCart": "Return to cart",
+					"continue": "continue",
+					"goBackOneStep": "go back one step",
+					"placeAnOrder": "place an order"
+				}
+			}
+		},
+		"stsatus": {
+			"title": "Thank you!",
+			"infoText1": "Your order  number is А-231411 has been successfully placed",
+			"infoText2": "Our managers will contact you within 30 minutes ",
+			"infoText3": "You can also track the status of the order in your personal account"
+		},
+		"statusButton": {
+			"goToPersonalAccount": "go to personal account",
+			"goBackToMainPage": "Go back to main page"
+		}
+	},
+	"footer": {
+		"about": {
+			"title": "About",
+			"aboutUs": "About Us",
+			"giftsCards": "Gifts Cards",
+			"blog": "Blog"
+		},
+		"shop": {
+			"title": "Shop",
+			"childrensFurniture": "Children's furniture",
+			"childrensMattresses": "Children's mattresses",
+			"linens": "Linens",
+			"toys": "Toys",
+			"strollers": "Strollers",
+			"childCarSeats": "Child car seats",
+			"bathingAccessories": "Bathing accessories",
+			"feedingAccessories": "Feeding accessories",
+			"promotionalOffers": "Promotional offers"
+		},
+		"customerCare": {
+			"title": "Customer Care",
+			"payment": "Payment",
+			"shipping": "Shipping",
+			"warranty": "Warranty",
+			"returnPolicy": "Return policy"
+		},
+		"contactUs": {
+			"title": "Contact Us",
+			"call": "Call: 599 84 56 76",
+			"email": "E-mail: babylandgeorgia@gmail.com",
+			"adress": "Address: Georgia, Tbilisi, 25 Al. Kazbegi Ave. (M2 Building)",
+			"work": "Mon - Sun 10:00 - 19:00"
+		},
+		"followUs": {
+			"title": "Follow Us",
+			"facebook": "Facebook",
+			"instagram": "Instagram",
+			"youtube": "Youtube"
+		},
+		"rights": {
+			"privacyPolicy": "Privacy Policy",
+			"cookiePolicy": "Cookie Policy",
+			"termsConditions": "Terms & Conditions",
+			"legalNotice": "Legal notice",
+			"allRights": "© Labebe 2021. All Rights Reserved"
+		}
+	},
+	"rev": "1 customer review",
+	"qes": "1 product question",
+	"wl": "Wishlist",
+	"cm": "Compare",
+	"share": "Share",
+	"vend": "Vendor code: BT000960",
+	"add": "ADD TO CART"
+}

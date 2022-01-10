@@ -1,0 +1,224 @@
+
+.reviewsandquestions__title {
+  font-size: 25px;
+  line-height: 36px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+.reviewsandquestions__tabs {
+  border-bottom: 1.5px solid #F2F2F2;
+  padding-bottom: 8px;
+  max-width: 1080px;
+}
+.reviewsandquestions__tabs-item {
+  font-family: "Nunito-SemiBold";
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  cursor: pointer;
+}
+.reviewsandquestions__tabs-item:first-child {
+  margin-right: 82px;
+}
+.reviewsandquestions__reviews {
+  position: relative;
+  margin-top: 32px;
+  padding-bottom: 16px;
+  max-width: 1080px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reviewsandquestions__reviews:last-child {
+  border-bottom: none;
+}
+.reviewsandquestions__reviews-img {
+  min-width: 68px;
+  background-color: #FCF9F4;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 16px;
+}
+.reviewsandquestions__reviews-img img {
+  width: 52px;
+  height: 52px;
+  margin: 8px;
+}
+.reviewsandquestions__reviews-info__name {
+  font-family: "Nunito-SemiBold";
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A1A1A;
+  margin-bottom: 8px;
+}
+.reviewsandquestions__reviews-info__rating-stars {
+  margin-bottom: 4px;
+}
+.reviewsandquestions__reviews-info__rating-date {
+  font-family: "Nunito-SemiBold";
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+.reviewsandquestions__reviews-info__review {
+  font-family: "Nunito-Regular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #1A1A1A;
+  border-bottom: 1.5px solid #F2F2F2;
+  padding-bottom: 16px;
+}
+.reviewsandquestions__reviews-wrapper {
+  display: none;
+}
+.reviewsandquestions__answer-wrapper {
+  background-color: #F2F2F2;
+  padding: 12px;
+}
+.reviewsandquestions__answer-name {
+  font-family: "Nunito-SemiBold";
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  margin-bottom: 8px;
+}
+.reviewsandquestions__answer-date {
+  font-family: "Nunito-SemiBold";
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+  display: none;
+}
+.reviewsandquestions__answer-answer {
+  font-family: "Nunito-Regular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #1A1A1A;
+}
+.reviewsandquestions__questions-wrapper {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
+.icon__delete, .icon__edit, .icon__dots {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.icon__delete {
+  top: 0;
+}
+.icon__edit {
+  top: 40px;
+}
+.icon__dots {
+  top: 24px;
+  right: 24px;
+  display: none;
+}
+
+.active__tab {
+  color: #1A1A1A;
+}
+
+.border {
+  border: none;
+}
+
+@media (min-width: 890px) {
+  .reviewsandquestions__tabs-item:first-child {
+    margin-right: 60px;
+  }
+  .reviewsandquestions__title {
+    margin-top: 32px;
+    margin-bottom: 52px;
+  }
+  .reviewsandquestions__reviews {
+    margin-top: 0;
+    padding: 24px 24px 28px;
+    -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+  }
+  .reviewsandquestions__reviews-img {
+    max-height: 152px;
+  }
+  .reviewsandquestions__reviews-img img {
+    width: 72px;
+    height: 72px;
+    margin: 40px;
+  }
+  .reviewsandquestions__reviews-info__name {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .reviewsandquestions__reviews-info__rating {
+    margin-bottom: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .reviewsandquestions__reviews-info__rating-date {
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 3px;
+  }
+  .reviewsandquestions__reviews-info__review {
+    font-size: 16px;
+    line-height: 28px;
+    border-bottom: none;
+  }
+  .reviewsandquestions__questions-wrapper .reviewsandquestions__reviews-info__rating-date {
+    margin-left: 0;
+  }
+  .reviewsandquestions__answer-wrapper {
+    background-color: transparent;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 60px;
+  }
+  .reviewsandquestions__answer-name {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1A1A;
+  }
+  .reviewsandquestions__answer-date {
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+  }
+  .reviewsandquestions__answer-answer {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .icon__delete, .icon__edit {
+    display: none;
+  }
+  .icon__dots {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
